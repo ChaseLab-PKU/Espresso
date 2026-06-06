@@ -1,0 +1,13 @@
+log_level = "INFO"
+log_name = "output/try.csv"
+edges = [["aaa", "bbb"]]
+
+[devices]
+aaa = "EspressoInterface"
+bbb = "E"
+
+[aaa]
+phantom = 0
+
+[bbb]
+phantom = 0
